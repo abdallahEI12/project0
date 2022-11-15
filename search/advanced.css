@@ -1,0 +1,93 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.dont {
+  display: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+body .page {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+body .page .header {
+  height: 5%;
+  display: block;
+  padding: 15px;
+  background-color: white;
+  text-align: right;
+}
+body .page .header a {
+  text-decoration: none;
+}
+body .page .logo {
+  display: flex;
+  margin: auto;
+  align-items: end;
+  height: 20%;
+  background-color: white;
+  padding: 10px;
+}
+body .page .logo .image {
+  display: flex;
+  align-items: end;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80;
+  width: 40%;
+}
+body .page .logo img {
+  margin: auto;
+  height: 272;
+  width: 92;
+}
+body .page form {
+  height: 20%;
+  width: 100%;
+}
+body .page form .search_bar {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+body .page form .search_bar .search {
+  width: 70%;
+  height: 50%;
+  margin: auto;
+  border-radius: 20px;
+  border-color: #fff;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+body .page form .buttons {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  height: 50%;
+  margin: auto;
+}
+body .page form .buttons input, body .page form .buttons a {
+  margin: auto;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  line-height: 27px;
+  height: 36px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=advanced.css.map */
