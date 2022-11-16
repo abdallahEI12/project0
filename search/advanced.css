@@ -8,6 +8,15 @@ body {
   display: none;
 }
 
+.search_name, .search_field {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.container {
+  margin-top: 10px;
+}
+
 body {
   width: 100vw;
   height: 100vh;
@@ -17,10 +26,12 @@ body .page {
   width: 100%;
   background-color: white;
 }
+body .page .advanced {
+  border-bottom: 1px solid black;
+}
 body .page .header, body .page .advanced {
   box-sizing: border-box;
   height: 10%;
-  border-bottom: 1px solid black;
   display: flex;
   align-items: flex-start;
   padding: 15px;
