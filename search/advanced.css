@@ -8,15 +8,6 @@ body {
   display: none;
 }
 
-.search_name, .search_field {
-  border: 2px solid black;
-  padding: 10px;
-}
-
-.container {
-  margin-top: 10px;
-}
-
 body {
   width: 100vw;
   height: 100vh;
@@ -28,6 +19,26 @@ body .page {
 }
 body .page .advanced {
   border-bottom: 1px solid black;
+}
+body .page #container-override, body .page .container {
+  margin-top: 10px;
+  margin-left: 0px;
+}
+body .page #container-override .row .search_field, body .page .container .row .search_field {
+  border: 1px solid black;
+  margin: 5px;
+  padding-right: 1px;
+  padding-left: 1px;
+}
+body .page #container-override .row .search-submit, body .page .container .row .search-submit {
+  font-size: 10px;
+  padding: 0px;
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  color: #fff;
+  height: 20px;
+  width: 60px;
+  border-radius: 2px;
 }
 body .page .header, body .page .advanced {
   box-sizing: border-box;
