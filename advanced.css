@@ -30,6 +30,12 @@ body .page #container-override .row .search_field, body .page .container .row .s
   padding-right: 1px;
   padding-left: 1px;
 }
+body .page #container-override .row .search_name, body .page .container .row .search_name {
+  order: 1px solid white;
+  margin: 5px;
+  padding-right: 1px;
+  padding-left: 1px;
+}
 body .page #container-override .row .search-submit, body .page .container .row .search-submit {
   font-size: 10px;
   padding: 0px;
